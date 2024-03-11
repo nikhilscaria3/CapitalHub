@@ -1,0 +1,152 @@
+.aboutmaincontainer {
+    margin: 0 11px;
+    padding: 0 1px;
+}
+
+.aboutsubcontainer {
+    gap: 20px;
+    display: flex;
+}
+
+.aboutcolumnone {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 64%;
+    margin-left: 0px;
+    margin: auto;
+}
+
+.aboutmainsection {
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    margin: auto 0;
+}
+
+.aboutoneside {
+    color: #000000;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    font: 600 40px Poppins, sans-serif;
+
+}
+
+.abouttwoside {
+    color: #090909;
+    margin-top: 25px;
+    font: 400 20px Poppins, sans-serif;
+}
+
+.aboutcolumntwo {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 26%;
+    margin-left: 20px;
+}
+
+.aboutimage {
+    aspect-ratio: 1.02;
+    object-fit: auto;
+    object-position: center;
+    width: 326px;
+    max-width: 100%;
+    flex-grow: 1;
+}
+
+.visioncolumntwo {
+    padding: 20px;
+}
+
+.visionimage {
+    aspect-ratio: 1.02;
+    object-fit: auto;
+    object-position: center;
+    border-radius: 10px;
+    width: 400px;
+    height: 300px;
+}
+
+.storycolumone,
+.whowearecolumnone,
+.teamcolumnone {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 84%;
+    padding: 10px;
+    margin-left: 40px;
+}
+
+.clientmaincontainer {
+    margin: 70px 11px 0;
+}
+
+.clientmainsection {
+    gap: 20px;
+    padding: 61px;
+    display: flex;
+}
+
+.imagecolumn {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 25%;
+    margin-left: 0px;
+}
+
+.clientimage1 {
+    aspect-ratio: 0.79;
+    object-fit: auto;
+    object-position: center;
+    width: 295px;
+    height: 295px;
+    border-radius: 10px;
+    max-width: 100%;
+    flex-grow: 1;
+}
+
+.imagecolumn2 {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 25%;
+    margin-left: 20px;
+}
+
+.imagecolumn3 {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 25%;
+    margin-left: 20px;
+}
+
+.imagecolumn4 {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 25%;
+    margin-left: 20px;
+}
+
+.clientname-container{
+    background-color: white;
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    padding: 5px;
+    z-index: 9999;
+    position: relative;
+    bottom: 35px;
+    border: 1px rgb(185, 182, 182) solid;
+    border-radius: 10px;
+
+}
+
+.clientname{
+    font-weight: 700;
+}

@@ -1,0 +1,232 @@
+.contactustitle {
+    color: #c0e864;
+    align-self: center;
+    text-align: center;
+    margin-top: 42px;
+    white-space: nowrap;
+    font: 600 32px Poppins, sans-serif;
+}
+
+.contactustitletwo {
+    color: #000;
+    text-align: center;
+    align-self: center;
+    margin-top: 63px;
+    font: 600 40px Poppins, sans-serif;
+}
+
+.searchcontainer {
+    border-radius: 50px;
+    border-color: rgba(235, 235, 235, 1);
+    border-style: solid;
+    border-width: 1px;
+    background-color: #fcfcfc;
+    align-self: center;
+    display: flex;
+    margin-top: 38px;
+    width: 917px;
+    max-width: 100%;
+    margin: auto;
+    padding-left: 32px;
+    justify-content: space-between;
+    gap: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.inputdata {
+    color: #4f4f4f;
+    flex-grow: 1;
+    border: none;
+    flex-basis: auto;
+    margin: auto 0;
+    font: 20px Poppins, sans-serif;
+}
+
+.searchbutton {
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgba(192, 232, 100, 1);
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    white-space: nowrap;
+    padding: 39px 60px;
+    font: 24px Poppins, sans-serif;
+}
+
+
+
+.formandaddressdetails {
+    background-color: #4f4f4f;
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+
+.addresscontainer {
+    align-items: start;
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    width: 40%;
+    font-size: 20px;
+    color: #c0e864;
+    font-weight: 500;
+    margin: auto 0;
+    padding: 15px 48px 4px 0;
+}
+
+.addressone {
+    display: flex;
+    gap: 15px;
+}
+
+.icon1 {
+    aspect-ratio: 1;
+    object-fit: auto;
+    object-position: center;
+    width: 22px;
+    fill: #c0e864;
+}
+
+.callus {
+    font-family: Poppins, sans-serif;
+    flex-grow: 1;
+    flex-basis: auto;
+    margin: auto 0;
+}
+
+.number {
+    color: #fff;
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    margin-top: 18px;
+    white-space: nowrap;
+}
+
+@media (max-width: 991px) {
+    .div-4 {
+        white-space: initial;
+    }
+}
+
+
+.addresstwo {
+    display: flex;
+    margin-top: 49px;
+    gap: 15px;
+    white-space: nowrap;
+}
+
+@media (max-width: 991px) {
+    .div-5 {
+        margin-top: 40px;
+        white-space: initial;
+    }
+}
+
+.icon2 {
+    aspect-ratio: 0.79;
+    object-fit: auto;
+    object-position: center;
+    width: 22px;
+}
+
+.location {
+    font-family: Poppins, sans-serif;
+    margin: auto 0;
+}
+
+.addressthree {
+    color: #fff;
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    align-self: stretch;
+    margin-top: 15px;
+}
+
+.addressfour {
+    display: flex;
+    margin-top: 52px;
+    gap: 15px;
+    white-space: nowrap;
+}
+
+@media (max-width: 991px) {
+    .div-8 {
+        margin-top: 40px;
+        white-space: initial;
+    }
+}
+
+.icon3 {
+    aspect-ratio: 1;
+    object-fit: auto;
+    object-position: center;
+    width: 22px;
+}
+
+.email {
+    font-family: Poppins, sans-serif;
+    flex-grow: 1;
+    flex-basis: auto;
+    margin: auto 0;
+}
+
+.emailaddress {
+    color: #fff;
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    margin-top: 17px;
+}
+
+
+.contactformcontainer {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    margin-left: 20px;
+}
+
+
+.formdata {
+    border-radius: 10px;
+    box-shadow: 4px 4px 40px 0px rgba(0, 0, 0, 0.2);
+    border-color: rgba(226, 226, 226, 1);
+    border-style: solid;
+    border-width: 1px;
+    background-color: #fff;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    font-size: 18px;
+    color: #5f5f5f;
+    font-weight: 400;
+    white-space: nowrap;
+    width: 100%;
+    padding: 62px 80px 20px;
+
+}
+
+
+.inputdata {
+    font-family: Poppins, sans-serif;
+    border-radius: 4.399px;
+    background-color: #f6f6f6;
+    justify-content: center;
+    align-items: start;
+    margin: 26px 18px 0 17px;
+    padding: 26px 60px 26px 23px;
+}
+
+.contactformsubmit {
+    justify-content: center;
+    border-radius: 33.079px;
+    background-color: #000;
+    align-self: center;
+    margin-top: 31px;
+    color: #fff;
+    padding: 14px 60px;
+    font: 600 15px Poppins, sans-serif;
+}

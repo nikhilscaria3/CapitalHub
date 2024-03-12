@@ -2,6 +2,7 @@ import React from 'react';
 import '../Styles/Homepage.css'
 import group from '../image/Group1.jpg'
 import group2 from '../image/Group.png'
+import curve from '../image/curve.jpg'
 import buddha from '../image/buddha.png'
 import fifthimage from '../image/Ellipse14.jpg'
 import sixthimage from '../image/sixth.jpg'
@@ -24,6 +25,7 @@ const Homepage = () => {
                         <div className="secondcontainercolumn">
                             <div className="secondoneside">
                                 <h1 className="secondonsidetitle">Make someone’s Life by giving of yours</h1>
+                                <img className='curveimage' src={curve} alt=''></img>
                                 <div className="secondonesubtitle">
                                     Lorem ipsum dolor sit amet consectetur. At consequat purus hendrerit
                                     proin risus Sit purus ante dictum in malesuada id.Lorem

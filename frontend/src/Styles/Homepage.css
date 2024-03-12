@@ -179,7 +179,7 @@ SeocndMainContainer */
 
 .firstsectionimage {
     aspect-ratio: 4;
-    object-fit: auto;
+    object-fit: cover;
     object-position: center;
     width: 179px;
     max-width: 100%;
@@ -220,7 +220,7 @@ SeocndMainContainer */
 
 .img-2 {
     aspect-ratio: 1.02;
-    object-fit: auto;
+    object-fit: cover;
     object-position: center;
     width: 100%;
     flex-grow: 1;
@@ -404,7 +404,7 @@ SeocndMainContainer */
 
 .fouthfirstimg {
     aspect-ratio: 1.03;
-    object-fit: auto;
+    object-fit: cover;
     object-position: center;
     width: 100%;
 }
@@ -449,7 +449,7 @@ SeocndMainContainer */
 
 .fouthsecondimg {
     aspect-ratio: 0.94;
-    object-fit: auto;
+    object-fit: cover;
     object-position: center;
     width: 125px;
     background-color: #fff;
@@ -490,7 +490,7 @@ SeocndMainContainer */
 
 .fouththirdimg {
     aspect-ratio: 1;
-    object-fit: auto;
+    object-fit: cover;
     object-position: center;
     width: 125px;
     background-color: #fff;
@@ -600,7 +600,7 @@ SeocndMainContainer */
 
 .fifthfirstimage {
     aspect-ratio: 1;
-    object-fit: auto;
+    object-fit: cover;
     object-position: center;
     width: 100%;
     border-radius: 50%;
@@ -618,7 +618,7 @@ SeocndMainContainer */
 
 .img-3 {
     aspect-ratio: 1;
-    object-fit: auto;
+    object-fit: cover;
     object-position: center;
     width: 100%;
     border-radius: 50%;
@@ -685,7 +685,7 @@ SeocndMainContainer */
 
 .fifthsecondimage {
     aspect-ratio: 1;
-    object-fit: auto;
+    object-fit: cover;
     object-position: center;
     width: 72px;
     border-radius: 50%;
@@ -693,7 +693,7 @@ SeocndMainContainer */
 
 .fifththirdimage {
     aspect-ratio: 1;
-    object-fit: auto;
+    object-fit: cover;
     object-position: center;
     width: 56px;
     border-radius: 50%;
@@ -716,7 +716,7 @@ SeocndMainContainer */
 
 .fifthfourthimage {
     aspect-ratio: 1.02;
-    object-fit: auto;
+    object-fit: cover;
     object-position: center;
     width: 56px;
     border-radius: 50%;
@@ -725,7 +725,7 @@ SeocndMainContainer */
 
 .fifthfifthimage {
     aspect-ratio: 1;
-    object-fit: auto;
+    object-fit: cover;
     object-position: center;
     width: 72px;
     border-radius: 50%;
@@ -936,7 +936,7 @@ SeocndMainContainer */
 
 .sixthimg {
     aspect-ratio: 1.59;
-    object-fit: auto;
+    object-fit: cover;
     object-position: center;
     width: 100%;
     border-width: 1px;
@@ -1000,7 +1000,7 @@ SeocndMainContainer */
 
 .eightfirstimg {
     aspect-ratio: 0.98;
-    object-fit: auto;
+    object-fit: cover;
     object-position: center;
     width: 121px;
     align-self: center;
@@ -1085,7 +1085,7 @@ SeocndMainContainer */
 
 .tenthimageone {
     aspect-ratio: 0.96;
-    object-fit: auto;
+    object-fit: cover;
     filter: grayscale(100%);
     object-position: center;
     width: 185px;
@@ -1098,7 +1098,7 @@ SeocndMainContainer */
 
 .tenthimagetwo {
     aspect-ratio: 0.95;
-    object-fit: auto;
+    object-fit: cover;
     object-position: center;
     filter: grayscale(100%);
     width: 150px;
@@ -1169,7 +1169,7 @@ SeocndMainContainer */
 
 .tenthimagethree {
     aspect-ratio: 0.96;
-    object-fit: auto;
+    object-fit: cover;
     object-position: center;
     filter: grayscale(100%);
     width: 118px;
@@ -1183,7 +1183,7 @@ SeocndMainContainer */
 
 .tenthimagefour {
     aspect-ratio: 0.78;
-    object-fit: auto;
+    object-fit: cover;
     object-position: center;
     filter: grayscale(100%);
     width: 146px;
@@ -1243,7 +1243,7 @@ SeocndMainContainer */
 
 .eleventhfirstimage {
     aspect-ratio: 1.37;
-    object-fit: auto;
+    object-fit: cover;
     object-position: center;
     width: 100%;
     border-radius: 10px;

@@ -71,7 +71,7 @@ const About = () => {
                                 alt=""
                             />
                         </div>
-                        <div className="aboutcolumnone">
+                        <div className="aboutcolumnonevision">
                             <div className="aboutmainsection">
                                 <div className="aboutoneside">
                                     Our

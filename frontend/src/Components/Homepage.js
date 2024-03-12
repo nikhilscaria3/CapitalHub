@@ -2,6 +2,7 @@ import React from 'react';
 import '../Styles/Homepage.css'
 import group from '../image/Group1.jpg'
 import group2 from '../image/Group.png'
+import buddha from '../image/buddha.png'
 import fifthimage from '../image/Ellipse14.jpg'
 import sixthimage from '../image/sixth.jpg'
 import eightfirstimage from '../image/eightfirstimaga.jpg'
@@ -42,7 +43,7 @@ const Homepage = () => {
                         <div className="secondtwosidecontainer">
                             <img
                                 loading="lazy"
-                                srcset="https://s3-alpha-sig.figma.com/img/cb4c/52e8/ec487f09c646297354248705fd771bd2?Expires=1711324800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=cdb6T4hECm2WgAUS3YdOHWlFrwGm6j9QZk~NUmXWcK1NNmx~93fKjSaDIeLG2cFtAcV6dKZOiq7fCBFodobuAvRgxoytnjzv9-8tff25ITuBinm0NkwKrUXvkhzwLYKNPhFXjo3ndjH3pLad4E~e9DH-G~h69O9KQI8YNaTZVzb2D-f8cyl7riyLPvpoCvu20wW~-BVrQtUS1C25jsGpmZ1O0XQ2R8ELPTOqP4C1uUnQlj0l3KZBVI3gZ~hmcINS-7o4aRzMcRc97Ypmi2~t~nypgrktToARcXxyupTvFe3iCybwM2B8HvDdxESHGL-XTNEcztyo7dq~hdsmOVPFZQ__"
+                                srcset={buddha}
                                 className="img-2"
                                 alt='img'
                             />

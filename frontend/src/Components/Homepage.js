@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import '../Styles/Homepage.css'
 import group from '../image/Group1.jpg'
 import group2 from '../image/Group.png'
@@ -41,6 +43,10 @@ const Homepage = () => {
     const [hospitalsBuilt, setHospitalsBuilt] = useState(0);
 
     useEffect(() => {
+        AOS.init({ duration: 1000 }); // You can customize the duration and other options
+    }, []);
+
+    useEffect(() => {
         // Simulate API calls or any other logic to fetch the actual numbers
         // For demonstration purposes, I'm using static values here
         const fetchData = () => {
@@ -59,9 +65,9 @@ const Homepage = () => {
                 <Navbar />
                 {/* secondmaincontainer */}
                 <div className="secondmaincontainer">
-                    <div className="secondsubcontainer">
-                        <div className="secondcontainercolumn">
-                            <div className="secondoneside">
+                    <div className="secondsubcontainer" >
+                        <div className="secondcontainercolumn"  >
+                            <div className="secondoneside" data-aos="zoom-in"  >
                                 <h1 className="secondonsidetitle">Make someone’s Life by giving of yours</h1>
                                 <img className='curveimage' src={curve} alt=''></img>
                                 <div className="secondonesubtitle">
@@ -115,14 +121,14 @@ const Homepage = () => {
 
                 <div className="fourthmaincontainer">
                     <div className="fourthsubcontainer">
-                        <div className="fourthtitle">
+                        <div className="fourthtitle" data-aos="zoom-out-up">
                             Fundraising on Buddha Trust takes just a few minutes
                         </div>
                         <div className="fourthcontent">
                             <div className="fourthsubcontent">
                                 <div className="fourthfirstsection">
                                     <div className="fourthsubfirstsection">
-                                        <div className="fourthimagecontainer">
+                                        <div className="fourthimagecontainer" >
                                             <img
                                                 loading="lazy"
                                                 srcset="https://s3-alpha-sig.figma.com/img/2e01/3163/56078b69a0118cad5c5b2721da09ae05?Expires=1711324800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=b-8UcoC4PTvIIHFUB58m1ykDEAtAe2vXAai9Xbcza2pc44cPoeXoL67qACdJ5AxF419TG1CkL4QM6BqA25Q4StLoQwCDOY2trQgCX6yMGq~hy6OlpRo~6gCprw8pnAoLMX~e5JwI~k3V-CrLVuS4K0X00B7SAZT1tnnJY1aWuklkarU5WVgs9~WLqg-6dQWJ8epq5ue8qTMMbN6fXghaUSmxe~7p25Rh4X2hXdBer50t9HANMnqVsEvzbyUgnGnkQHrgCNTa~UwtPCgliZCZq9KlfEUP~hCFJsidbFdxRTYzv5uw2T4BiTgzTtbP1~JfJbnHZW5tCk1j6YUNlQIzTg__"
@@ -279,7 +285,7 @@ const Homepage = () => {
 
                 <div className="sixthmaincontainer">
                     <div className="sixthsubcontainer">
-                        <div className="sixthcolum">
+                        <div className="sixthcolum"  data-aos="zoom-in-right">
                             <div className="sixthdatacontainer">
                                 <div className="sixthhead">Great futures are built with a small trust</div>
                                 <div className="sixthsubhead">
@@ -289,7 +295,7 @@ const Homepage = () => {
                                 <div className="sixthdonatebutton">Donate Now</div>
                             </div>
                         </div>
-                        <div className="sixthimagecontainer">
+                        <div className="sixthimagecontainer"  data-aos="zoom-in-right">
                             <img
                                 loading="lazy"
                                 srcset={sixthimage}
@@ -304,7 +310,7 @@ const Homepage = () => {
 
 
                 <div className="eighthmaincontainer">
-                    <div className="eighthsubcontainer">
+                    <div className="eighthsubcontainer" data-aos="zoom-out-right">
                         <div className="eightimagecontainer">
                             <img
                                 loading="lazy"
@@ -334,7 +340,7 @@ const Homepage = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="eighthsubcontainer">
+                    <div className="eighthsubcontainer" data-aos="zoom-out-left">
                         <div className="eightimagecontainer">
                             <img
                                 loading="lazy"

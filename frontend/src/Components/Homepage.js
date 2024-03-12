@@ -23,7 +23,7 @@ const Homepage = () => {
                     <div className="secondsubcontainer">
                         <div className="secondcontainercolumn">
                             <div className="secondoneside">
-                                <div className="secondonsidetitle">Make someone’s Life by giving of yours</div>
+                                <h1 className="secondonsidetitle">Make someone’s Life by giving of yours</h1>
                                 <div className="secondonesubtitle">
                                     Lorem ipsum dolor sit amet consectetur. At consequat purus hendrerit
                                     proin risus Sit purus ante dictum in malesuada id.Lorem

@@ -260,7 +260,7 @@ const Homepage = () => {
                     </div>
                 </div>
 
-                <div className="seventhmaincontainer">We Believe that We can Save<br/> More Life’s with you</div>
+                <div className="seventhmaincontainer">We Believe that We can Save<br /> More Life’s with you</div>
 
 
                 <div className="eighthmaincontainer">
@@ -390,24 +390,32 @@ const Homepage = () => {
                             <div className="eleventhtitlecontainer">
                                 <div className="titlediv">Help us to send food</div>
                                 <div className="eleventhsecondimagecontainer">
-                                    <div className="eleventhsubsecondimagecontainer">
-                                        <img
-                                            loading="lazy"
-                                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/3afcb8c5ef6404e6b3334d82a3ef9732fc75be9622380923f04d40f97e6a2e3e?"
-                                            className="eleventhsecondimage"
-                                            alt=''
-                                        />
-                                        <img
-                                            loading="lazy"
-                                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/346680d19af8bb5b08a7d3022df836ec7c18fb9dbb5077299e74f7d8bf530ba5?"
-                                            className="elevenththirdimage"
-                                            alt=''
-                                        />
+                                    <div className="percentagelevelcontainer">
+
                                     </div>
                                     <div className="percentage">100%</div>
                                 </div>
-                                <p >Donator’s</p>
-                                <p >50</p>
+                                <h4 className='donater' >Donator’s</h4>
+                                <p className='donatercount' >50</p>
+                            </div>
+                        </div>
+                        <div className="eleventhheadcontainer">
+                            <img
+                                loading="lazy"
+                                srcset="https://shorturl.at/ghwGH"
+                                className="eleventhfirstimage"
+                                alt=''
+                            />
+                            <div className="eleventhtitlecontainer">
+                                <div className="titledivgreen">Help us to send food</div>
+                                <div className="eleventhsecondimagecontainer">
+                                    <div className="percentagelevelgreencontainer">
+
+                                    </div>
+                                    <div className="percentagegreen">100%</div>
+                                </div>
+                                <h4 className='donater' >Donator’s</h4>
+                                <p className='seconddonatercount' >50</p>
                             </div>
                         </div>
                         <div className="eleventhheadcontainer">
@@ -420,24 +428,13 @@ const Homepage = () => {
                             <div className="eleventhtitlecontainer">
                                 <div className="titlediv">Help us to send food</div>
                                 <div className="eleventhsecondimagecontainer">
-                                    <div className="eleventhsubsecondimagecontainer">
-                                        <img
-                                            loading="lazy"
-                                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/3afcb8c5ef6404e6b3334d82a3ef9732fc75be9622380923f04d40f97e6a2e3e?"
-                                            className="eleventhsecondimage"
-                                            alt=''
-                                        />
-                                        <img
-                                            loading="lazy"
-                                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/346680d19af8bb5b08a7d3022df836ec7c18fb9dbb5077299e74f7d8bf530ba5?"
-                                            className="elevenththirdimage"
-                                            alt=''
-                                        />
+                                    <div className="percentagelevelcontainer">
+
                                     </div>
                                     <div className="percentage">100%</div>
                                 </div>
-                                <p >Donator’s</p>
-                                <p >50</p>
+                                <h4 className='donater' >Donator’s</h4>
+                                <p className='donatercount' >50</p>
                             </div>
                         </div>
                         <div className="eleventhheadcontainer">
@@ -448,56 +445,15 @@ const Homepage = () => {
                                 alt=''
                             />
                             <div className="eleventhtitlecontainer">
-                                <div className="titlediv">Help us to send food</div>
+                                <div className="titledivblue">Help us to send food</div>
                                 <div className="eleventhsecondimagecontainer">
-                                    <div className="eleventhsubsecondimagecontainer">
-                                        <img
-                                            loading="lazy"
-                                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/3afcb8c5ef6404e6b3334d82a3ef9732fc75be9622380923f04d40f97e6a2e3e?"
-                                            className="eleventhsecondimage"
-                                            alt=''
-                                        />
-                                        <img
-                                            loading="lazy"
-                                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/346680d19af8bb5b08a7d3022df836ec7c18fb9dbb5077299e74f7d8bf530ba5?"
-                                            className="elevenththirdimage"
-                                            alt=''
-                                        />
+                                    <div className="percentagelevelbluecontainer">
+
                                     </div>
-                                    <div className="percentage">100%</div>
+                                    <div className="percentageblue">100%</div>
                                 </div>
-                                <p >Donator’s</p>
-                                <p >50</p>
-                            </div>
-                        </div>
-                        <div className="eleventhheadcontainer">
-                            <img
-                                loading="lazy"
-                                srcset="https://shorturl.at/ghwGH"
-                                className="eleventhfirstimage"
-                                alt=''
-                            />
-                            <div className="eleventhtitlecontainer">
-                                <div className="titlediv">Help us to send food</div>
-                                <div className="eleventhsecondimagecontainer">
-                                    <div className="eleventhsubsecondimagecontainer">
-                                        <img
-                                            loading="lazy"
-                                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/3afcb8c5ef6404e6b3334d82a3ef9732fc75be9622380923f04d40f97e6a2e3e?"
-                                            className="eleventhsecondimage"
-                                            alt=''
-                                        />
-                                        <img
-                                            loading="lazy"
-                                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/346680d19af8bb5b08a7d3022df836ec7c18fb9dbb5077299e74f7d8bf530ba5?"
-                                            className="elevenththirdimage"
-                                            alt=''
-                                        />
-                                    </div>
-                                    <div className="percentage">100%</div>
-                                </div>
-                                <p >Donator’s</p>
-                                <p >50</p>
+                                <h4 className='donater' >Donator’s</h4>
+                                <p className='thirddonatercount' >50</p>
                             </div>
                         </div>
                     </div>

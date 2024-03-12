@@ -523,6 +523,7 @@ SeocndMainContainer */
     flex-direction: column;
     line-height: normal;
     width: 50%;
+    padding: 15px;
     margin-left: 0px;
 }
 
@@ -544,8 +545,8 @@ SeocndMainContainer */
 }
 
 .fifthdiv4 {
-    gap: 20px;
     display: flex;
+
 }
 
 @media (max-width: 991px) {
@@ -564,10 +565,10 @@ SeocndMainContainer */
     border-width: 1px;
     background-color: #fff;
     display: flex;
-    width: 100%;
+
     flex-grow: 1;
     flex-direction: column;
-    align-items: center;
+
     margin: 0 auto;
     padding: 11px 32px 27px;
 }
@@ -581,7 +582,7 @@ SeocndMainContainer */
 
 .fifthfirstimagecontainer {
     display: flex;
-    width: 172px;
+    width: 242px;
     max-width: 100%;
     justify-content: space-between;
     gap: 20px;
@@ -598,11 +599,11 @@ SeocndMainContainer */
 
 .fifthfirstimagecontainer {
     display: flex;
-    margin-top: 35px;
+    margin-top: 45px;
+    margin-left: 20px;
     width: 172px;
     max-width: 100%;
-    justify-content: space-between;
-    gap: 20px;
+    gap: 40px;
 }
 
 .img-3 {
@@ -646,11 +647,10 @@ SeocndMainContainer */
     border-width: 1px;
     background-color: #fff;
     display: flex;
-    width: 100%;
     flex-direction: column;
     align-self: stretch;
     margin: auto;
-    padding: 9px 32px 20px;
+    padding: 26px 33px 20px;
 }
 
 @media (max-width: 991px) {
@@ -664,6 +664,7 @@ SeocndMainContainer */
     display: flex;
     padding-right: 35px;
     gap: 17px;
+    justify-content: space-between;
 }
 
 @media (max-width: 991px) {
@@ -978,7 +979,7 @@ SeocndMainContainer */
     background-color: #fff;
     display: flex;
     flex-direction: column;
-    padding: 4px 50px 40px;
+    padding: 43px 37px 40px;
 }
 
 @media (max-width: 991px) {
@@ -1245,10 +1246,20 @@ SeocndMainContainer */
     padding: 0 15px;
 }
 
-.titlediv {
-    color: #000;
-    text-align: center;
+.titlediv,
+.titledivblue,
+.titledivgreen {
+    color: orange;
+    text-align: start;
     font: 600 15px Poppins, sans-serif;
+}
+
+.titledivgreen {
+    color: green;
+}
+
+.titledivblue {
+    color: blue;
 }
 
 .eleventhsecondimagecontainer {
@@ -1257,68 +1268,71 @@ SeocndMainContainer */
     gap: 7px;
 }
 
-.eleventhsubsecondimagecontainer {
+
+.percentagelevelcontainer,
+.percentagelevelgreencontainer,
+.percentagelevelbluecontainer {
 
     display: flex;
     flex-direction: column;
-    stroke-width: 4px;
+    stroke-width: 10px;
     stroke: #dbdbdb;
     overflow: hidden;
-    border-color: rgba(219, 219, 219, 1);
-    border-style: solid;
-    border-width: 4px;
-    position: relative;
-    display: flex;
-    aspect-ratio: 53.75;
-    width: 215px;
-    padding-right: 60px;
-    justify-content: center;
-    align-items: center;
-    margin: auto 0;
-}
-
-.eleventhsecondimage {
-    position: absolute;
-    inset: 0;
-    height: 100%;
+    background: linear-gradient(to right, orange 70%, #ffffff 30%);
+    border: 1px solid grey;
+    border-radius: 10px;
     width: 100%;
-    object-fit: cover;
-    object-position: center;
+    height: 9px;
 }
 
-.elevenththirdimage {
-    aspect-ratio: 33.33;
-    object-fit: auto;
-    object-position: center;
-    width: 100%;
-    stroke-width: 4px;
-    stroke: #f90;
-    border-color: rgba(255, 153, 0, 1);
-    border-style: solid;
-    border-width: 4px;
+.percentagelevelgreencontainer {
+    background: linear-gradient(to right, green 70%, #ffffff 30%);
 }
 
-.percentage {
+.percentagelevelbluecontainer {
+    background: linear-gradient(to right, blue 70%, #ffffff 30%);
+}
+
+.percentage,
+.percentagegreen,
+.percentageblue {
     color: #f90;
+
     text-align: center;
     flex-grow: 1;
     font: 600 15px Poppins, sans-serif;
 }
 
-.div-7 {
-    color: #000;
-    text-align: center;
-    margin-top: 10px;
-    font: 500 10px Poppins, sans-serif;
+.percentagegreen {
+    color: #45a049;
 }
 
-.div-8 {
+.percentageblue {
+    color: blue;
+}
+
+.donater {
+    color: #000;
+    text-align: start;
+}
+
+.donatercount {
     color: #f90;
-    text-align: center;
-    margin-top: 10px;
+    text-align: start;
     font: 600 15px Poppins, sans-serif;
 }
 
+.seconddonatercount {
+    color: green;
+    text-align: start;
+    font: 600 15px Poppins, sans-serif;
+}
+
+.thirddonatercount {
+    color: rgb(22, 83, 215);
+    text-align: start;
+    font: 600 15px Poppins, sans-serif;
+}
 
 /* Footer
  */

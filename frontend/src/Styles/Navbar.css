@@ -38,17 +38,24 @@
     color: #000;
     margin: auto 0;
   }
+
   .navhome {
+    text-decoration: none;
+    color: #000;
     font-family: Poppins, sans-serif;
   }
   .navaboutus {
     font-family: Poppins, sans-serif;
     font-weight: 600;
+    text-decoration: none;
+    color: #000;
   }
   .navcontactus {
     font-family: Poppins, sans-serif;
     flex-grow: 1;
     flex-basis: auto;
+    text-decoration: none;
+    color: #000;
   }
   .navsecondpart {
     display: flex;

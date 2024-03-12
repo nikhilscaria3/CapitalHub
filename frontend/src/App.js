@@ -1,7 +1,7 @@
-import About from './AboutComponent';
+import About from './Components/AboutComponent';
 import './App.css';
-import ContactUs from './ContactusComponent';
-import Homepage from './Homepage';
+import ContactUs from './Components/ContactusComponent';
+import Homepage from './Components/Homepage';
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 

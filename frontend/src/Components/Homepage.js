@@ -325,7 +325,7 @@ const Homepage = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="eighthsubcontainer">
+                    <div className="eighthsubcontainer" data-aos="zoom-in">
                         <div className="eightimagecontainer">
                             <img
                                 loading="lazy"
@@ -389,7 +389,7 @@ const Homepage = () => {
                         </div>
                         <div className="tenthcolumntwo">
                             <div className="tenthcountcontainer">
-                                <div className="countplus">130,987 +</div>
+                                <div className="countplus" data-aos="flip-up">130,987 +</div>
                                 <p className="div-6">People already joined</p>
                                 <p className="joincommunity">Yes i want join community</p>
                             </div>

@@ -147,10 +147,9 @@
     width: 200px;
     text-align: center;
     margin: auto;
-    padding: 5px;
     z-index: 9999;
     position: relative;
-    bottom: 35px;
+    bottom: 30px;
     border: 1px rgb(185, 182, 182) solid;
     border-radius: 10px;
 

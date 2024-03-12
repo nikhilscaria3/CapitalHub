@@ -1,3 +1,7 @@
+.aboutheadcontainer {
+    background: linear-gradient(to bottom, #CFE2AA 0%, #ffffff 15%, #f0f0f0 70%, #ffffff 100%);
+}
+
 .aboutmaincontainer {
     margin: 0 11px;
     padding: 0 1px;
@@ -133,7 +137,7 @@
     margin-left: 20px;
 }
 
-.clientname-container{
+.clientname-container {
     background-color: white;
     width: 200px;
     text-align: center;
@@ -147,6 +151,6 @@
 
 }
 
-.clientname{
+.clientname {
     font-weight: 700;
 }

@@ -10,6 +10,8 @@ const ContactUs = () => {
         <div>
             <Navbar />
             <div className="contactusmaincontainer">
+                <div className="contactussubcontainer">
+            
                 <div className="contactustitle">
                     <h1>Contact Us</h1>
                 </div>
@@ -23,7 +25,7 @@ const ContactUs = () => {
                     <button className="searchbutton">Search</button>
                 </div>
             </div>
-
+            </div>
             <div className="formandaddressdetails">
                 <div className="addresscontainer">
                     <div className="addressone">

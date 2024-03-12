@@ -29,7 +29,7 @@
 
 
   .aboutcontainer{
-    align-self: start;
+    align-self: flex-start;
     display: flex;
     flex-direction: column;
     color: #fff;

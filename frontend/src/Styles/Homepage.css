@@ -55,7 +55,7 @@
 SeocndMainContainer */
 
 .secondmaincontainer {
-    margin-top: 29px;
+    background: linear-gradient(to bottom, #CFE2AA 1%, #ffffff 50%, #ffffff 50%);
     width: 100%;
 }
 
@@ -495,6 +495,7 @@ SeocndMainContainer */
 .fifthmaincontainer {
     margin-top: 86px;
     width: 100%;
+
 }
 
 @media (max-width: 991px) {
@@ -685,7 +686,7 @@ SeocndMainContainer */
     object-position: center;
     width: 56px;
     border-radius: 50%;
-    align-self: start;
+    align-self: flex-start;
     margin-top: 16px;
 }
 
@@ -807,6 +808,7 @@ SeocndMainContainer */
 
 .sixthmaincontainer {
     margin-top: 100px;
+
     width: 100%;
 
 }
@@ -1047,7 +1049,6 @@ SeocndMainContainer */
 
 .tenthmaincontainer {
     margin-top: 31px;
-    width: 100%;
     padding: 0 20px;
 }
 
@@ -1093,7 +1094,7 @@ SeocndMainContainer */
     border-color: rgba(230, 230, 230, 1);
     border-style: solid;
     border-width: 1px;
-    align-self: end;
+    align-self: flex-end;
     margin-top: 56px;
     max-width: 100%;
 
@@ -1130,7 +1131,7 @@ SeocndMainContainer */
 
 }
 
-.div-7 {
+.joincommunity {
     justify-content: center;
     border-radius: 70px;
     background-color: #222;
@@ -1163,7 +1164,7 @@ SeocndMainContainer */
     border-color: rgba(230, 230, 230, 1);
     border-style: solid;
     border-width: 1px;
-    align-self: end;
+    align-self: flex-end;
     max-width: 100%;
 }
 

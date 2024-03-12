@@ -259,7 +259,7 @@ const Homepage = () => {
                     </div>
                 </div>
 
-                <div className="seventhmaincontainer">We Believe that We can Save More Life’s with you</div>
+                <div className="seventhmaincontainer">We Believe that We can Save<br/> More Life’s with you</div>
 
 
                 <div className="eighthmaincontainer">
@@ -344,7 +344,7 @@ const Homepage = () => {
                             <div className="tenthcountcontainer">
                                 <div className="countplus">130,987 +</div>
                                 <p className="div-6">People already joined</p>
-                                <p className="div-7">Yes i want join community</p>
+                                <p className="joincommunity">Yes i want join community</p>
                             </div>
                         </div>
                         <div className="tenthcolumnthree">

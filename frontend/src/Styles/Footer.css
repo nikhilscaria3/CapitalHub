@@ -19,10 +19,11 @@
 
   .description {
     align-items: flex-start;
-    width: 200px;
+    width: 250px;
     justify-content: flex-start;
     color: #fff;
-    letter-spacing: -0.04px;
+    line-height: 5px;
+    letter-spacing: 0.96px;
     padding: 4px 0;
     font: 400 18px Poppins, sans-serif;
   }

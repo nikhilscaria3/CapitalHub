@@ -96,8 +96,8 @@ const About = () => {
                         <div className="whowearecolumnone">
                             <div className="aboutmainsection">
                                 <div className="aboutoneside">
-                                    Who We Are
-                                    <span style={{ color: "rgba(192, 232, 100, 1)" }}></span>
+                                    Who 
+                                    <span style={{ color: "rgba(192, 232, 100, 1)" }}>We Are</span>
                                 </div>
                                 <div className="abouttwoside">
                                     Lorem ipsum dolor sit amet consectetur. At consequat purus hendrerit

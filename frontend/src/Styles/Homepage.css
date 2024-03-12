@@ -123,13 +123,14 @@ SeocndMainContainer */
     }
 }
 
-.curveimage{
+.curveimage {
     width: 150px;
     margin-left: 271px;
-    margin-bottom: 30px;
     position: absolute;
-    bottom: 380px;
+    bottom: 280px;
+
 }
+
 .secondonesubtitle {
     color: #2d2d2d;
     margin-top: 4px;

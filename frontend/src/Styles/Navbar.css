@@ -10,12 +10,7 @@
     font-weight: 500;
     padding: 25px 60px;
   }
-  @media (max-width: 991px) {
-    .div {
-      max-width: 100%;
-      padding: 0 20px;
-    }
-  }
+
   .navsubcontainer {
     display: flex;
     margin-right: 41px;
@@ -24,12 +19,7 @@
     justify-content: space-between;
     gap: 20px;
   }
-  @media (max-width: 991px) {
-    .div-2 {
-      margin-right: 10px;
-      flex-wrap: wrap;
-    }
-  }
+
   .navonepart {
     display: flex;
     justify-content: space-between;
@@ -63,11 +53,7 @@
     font-size: 15px;
     white-space: nowrap;
   }
-  @media (max-width: 991px) {
-    .div-7 {
-      white-space: initial;
-    }
-  }
+
   .navdonate{
     font-family: Poppins, sans-serif;
     justify-content: center;
@@ -79,12 +65,7 @@
     flex-grow: 1;
     padding: 10px 36px;
   }
-  @media (max-width: 991px) {
-    .div-8 {
-      white-space: initial;
-      padding: 0 20px;
-    }
-  }
+
   .navsignin {
     font-family: Poppins, sans-serif;
     justify-content: center;
@@ -93,10 +74,4 @@
     color: #fff;
     flex-grow: 1;
     padding: 10px 43px;
-  }
-  @media (max-width: 991px) {
-    .div-9 {
-      white-space: initial;
-      padding: 0 20px;
-    }
   }

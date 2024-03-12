@@ -118,12 +118,6 @@
     white-space: nowrap;
 }
 
-@media (max-width: 991px) {
-    .div-4 {
-        white-space: initial;
-    }
-}
-
 
 .addresstwo {
     display: flex;
@@ -132,12 +126,6 @@
     white-space: nowrap;
 }
 
-@media (max-width: 991px) {
-    .div-5 {
-        margin-top: 40px;
-        white-space: initial;
-    }
-}
 
 .icon2 {
     aspect-ratio: 0.79;
@@ -166,12 +154,6 @@
     white-space: nowrap;
 }
 
-@media (max-width: 991px) {
-    .div-8 {
-        margin-top: 40px;
-        white-space: initial;
-    }
-}
 
 .icon3 {
     aspect-ratio: 1;

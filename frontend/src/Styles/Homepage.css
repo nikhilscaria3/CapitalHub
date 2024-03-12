@@ -790,11 +790,6 @@ SeocndMainContainer */
     font: 500 18px Poppins, sans-serif;
 }
 
-@media (max-width: 991px) {
-    .div-16 {
-        max-width: 100%;
-    }
-}
 
 .donatebutton {
     justify-content: center;
@@ -884,11 +879,6 @@ SeocndMainContainer */
     font: 600 40px Poppins, sans-serif;
 }
 
-@media (max-width: 991px) {
-    .div-4 {
-        max-width: 100%;
-    }
-}
 
 .sixthsubhead {
     color: #2d2d2d;

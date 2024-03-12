@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import '../Styles/Homepage.css'
 import group from '../image/Group1.jpg'
 import group2 from '../image/Group.png'
@@ -12,9 +12,47 @@ import eightthirdimage from '../image/eightthirdimage.jpg'
 import Navbar from './Navcomponent';
 import Footer from './FooterComponent';
 
+const AnimatedCounter = ({ value, unit }) => {
+    const [displayedValue, setDisplayedValue] = useState(0);
 
+    useEffect(() => {
+        const interval = setInterval(() => {
+            setDisplayedValue((prevValue) => {
+                const increment = Math.ceil((value - prevValue) / 10); // Adjust the increment based on your preference
+                return prevValue + increment;
+            });
+        }, 100);
+
+        return () => clearInterval(interval);
+    }, [value]);
+
+    return (
+        <div className="animated-counter">
+            {displayedValue}
+            {unit}
+        </div>
+    );
+};
 
 const Homepage = () => {
+
+    const [childrenBackToSchool, setChildrenBackToSchool] = useState(0);
+    const [totalMoneyDonated, setTotalMoneyDonated] = useState(0);
+    const [hospitalsBuilt, setHospitalsBuilt] = useState(0);
+
+    useEffect(() => {
+        // Simulate API calls or any other logic to fetch the actual numbers
+        // For demonstration purposes, I'm using static values here
+        const fetchData = () => {
+            setChildrenBackToSchool(10);
+            setTotalMoneyDonated(2);
+            setHospitalsBuilt(100);
+        };
+
+        fetchData();
+    }, []);
+
+
     return (
         <div>
             <div className='maincontainer'>
@@ -54,24 +92,24 @@ const Homepage = () => {
                 </div>
 
                 {/* thirdmain */}
-
                 <div className="thirdmaincontainer">
                     <div className="thirdcosubntainer">
                         <div className="thirdfirstpart">
-                            <div className="firsttitle">10k +</div>
+                            <div className='firsttitle'> <AnimatedCounter value={childrenBackToSchool} unit="K+" /></div>
                             <div className="secondtitle">Children are back to school</div>
                         </div>
                         <div className="thirdfirstpart">
-                            <div className="firsttitle">2M+</div>
+                            <div className='firsttitle'>
+                                <AnimatedCounter value={totalMoneyDonated} unit="M+" /></div>
                             <div className="secondtitle">Total money donated</div>
                         </div>
                         <div className="thirdfirstpart">
-                            <div className="firsttitle">100+</div>
+                            <div className='firsttitle'>
+                                <AnimatedCounter value={hospitalsBuilt} unit="+" /></div>
                             <div className="secondtitle">Hospital has been built</div>
                         </div>
                     </div>
                 </div>
-
 
                 {/* Fourth  Section  */}
 

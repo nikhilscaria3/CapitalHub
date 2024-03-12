@@ -372,7 +372,7 @@ const Homepage = () => {
                 <div className="tenthmaincontainer">
                     <div className="tenthsubcontainer">
                         <div className="tenthcolumnone">
-                            <div className="tenthfirstimagecontainer">
+                            <div className="tenthfirstimagecontainer" data-aos="zoom-in-down">
                                 <img
                                     loading="lazy"
                                     srcset="https://s3-alpha-sig.figma.com/img/d4d1/66bb/d258fbcca4bac36184782d2d2831f528?Expires=1711324800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=AWV7BU0TCGPo03gBA9B0NJ12kBS~-HLj0pYZxM231Wug2EdyqWSTNVSdIBRtNsyUDsbS2oNdpsJiBp9h59NPE4GLqGMMXZpCy2hjRPWueDqzw7OymeAGKIvRJXSVVsoLSfai8f1S9sF9-gLMBxMwZXNU-2CrBK9i0X3mPS-lL5JB-aR-GXg~LRme097xySIYDKSEB~axdm8wDELdhix5uGSm7R0w1WnuXXBnGWBz1VhzhUT0i5boOCq-5KsLFvPlm1jxwZVx7v0aZ3KDrg4hWnmWkbq5un1uTxoLc2Zm2y3zk9S-o76Pxr7EyN45-QqXZ1QAotiImPXbpyoUUY483A__"
@@ -395,7 +395,7 @@ const Homepage = () => {
                             </div>
                         </div>
                         <div className="tenthcolumnthree">
-                            <div className="tenthsecondimagecontainer">
+                            <div className="tenthsecondimagecontainer" data-aos="zoom-in-down">
                                 <img
                                     loading="lazy"
                                     src='https://shorturl.at/ivFU8'

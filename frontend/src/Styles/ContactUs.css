@@ -34,6 +34,7 @@
     display: flex;
     margin-top: 38px;
     width: 917px;
+    height: 70px;
     max-width: 100%;
     margin: auto;
     padding-left: 32px;
@@ -59,7 +60,7 @@
     align-items: center;
     color: #000;
     white-space: nowrap;
-    padding: 39px 60px;
+    padding: 21px 60px;
     font: 24px Poppins, sans-serif;
 }
 
@@ -230,6 +231,16 @@
     align-items: flex-start;
     margin: 26px 18px 0 17px;
     padding: 26px 60px 26px 23px;
+}
+
+.searchinputdata {
+    font-family: Poppins, sans-serif;
+    border-radius: 4.399px;
+    flex-grow: 1;
+    border: none;
+    flex-basis: auto;
+    margin: auto 0;
+    font: 20px Poppins, sans-serif;
 }
 
 .contactformsubmit {

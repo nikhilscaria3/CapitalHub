@@ -21,7 +21,7 @@ const ContactUs = () => {
                 </div>
 
                 <div className="searchcontainer">
-                    <input className="inputdata" placeholder="Search for your query"></input>
+                    <input className="searchinputdata" placeholder="Search for your query"></input>
                     <button className="searchbutton">Search</button>
                 </div>
             </div>

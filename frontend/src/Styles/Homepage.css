@@ -1076,6 +1076,7 @@ SeocndMainContainer */
 .tenthimageone {
     aspect-ratio: 0.96;
     object-fit: auto;
+    filter: grayscale(100%);
     object-position: center;
     width: 185px;
     box-shadow: 3.129px 3.129px 15.644px 0px rgba(0, 0, 0, 0.1);
@@ -1089,6 +1090,7 @@ SeocndMainContainer */
     aspect-ratio: 0.95;
     object-fit: auto;
     object-position: center;
+    filter: grayscale(100%);
     width: 150px;
     box-shadow: 2.719px 2.719px 13.597px 0px rgba(0, 0, 0, 0.1);
     border-color: rgba(230, 230, 230, 1);
@@ -1159,6 +1161,7 @@ SeocndMainContainer */
     aspect-ratio: 0.96;
     object-fit: auto;
     object-position: center;
+    filter: grayscale(100%);
     width: 118px;
     box-shadow: 2.745px 2.745px 13.724px 0px rgba(0, 0, 0, 0.1);
     border-color: rgba(230, 230, 230, 1);
@@ -1172,6 +1175,7 @@ SeocndMainContainer */
     aspect-ratio: 0.78;
     object-fit: auto;
     object-position: center;
+    filter: grayscale(100%);
     width: 146px;
     box-shadow: 2.014px 2.014px 10.069px 0px rgba(0, 0, 0, 0.1);
     border-color: rgba(230, 230, 230, 1);
